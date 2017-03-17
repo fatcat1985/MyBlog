@@ -1,18 +1,15 @@
-Title         : Welcome
-Author        : You
-Logo          : True
+一直寻找Windows平台的markdown软件，一直都没有太大的进展。试用过vim，emacs，MarkPad，MarkdownPad等软件之后，发现相比于Mac下的MacDown，还是有所不足：
 
-[TITLE]
+* vim/emacs的操作很方便，速度也很快，缺点在于没法预览，如果需要预览，需要安装pandoc等第三方库，这在windows下还是挺折腾的
+* MarkPad是Windows Store的软件，安装方便，速度也很快。主要问题是UI还是感觉不太适应，也许是为了满足UWP的需求，做的有些太过于简略了
+* MarkdownPad 2的评价很高，但是在我这里就是死活不能预览，重装系统之后也是如此。
 
-# Madoko 
+最终选定的是Atom,用起来比较舒服,配色看起来也很顺眼。可惜的是人心不足蛇吞象，在习惯了这个软件之后，渐渐的又有了版本管理的想法，希望能把blog的文件直接使用github进行版本管理，这样子也能让自己留个追溯的记录。而且通常情况下，一个blog写好之后都会进行几次修改才会发布，在修改的过程中，希望能够看到每次修改的内容，也好为以后的写作留下参考。
 
-Madoko is a fast markdown processor for writing professional articles
-with a focus on simplicity and plain text readability.
+前段时间在[知乎](https://www.zhihu.com) 上看到关于Markdown的帖子，提到了MSR的Madoko。一开始是用FF浏览器，在输入中午的时候经常会出现自动重复字符的错误，也就停止了试用。今天突然用Chrome了，想起来试用一下，除了打字仍然显得有点闪烁之外，其他功能还是很不错的。至少满足了我目前的几大需求：
 
-* Read the [reference manual].
-* Explore the upper-right toolbox menu to discover how Markdown works. 
-* `Alt-Q` reformats the current paragraph.
+1. 能够实时渲染，看到效果
+2. 能够和Github互联，每次保存都是一个Commit，这样就能够留下自己每次的修改记录
+3. 可以直接导出HTML文件，这样直接复制粘贴到自己的blog上就行了
 
-Enjoy!
-
-[reference manual]: http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html  "Madoko reference manual"
+目前暂且试用Madoko一段时间，如果能够习惯，考虑以后作为主力MarkDown编辑器使用。
